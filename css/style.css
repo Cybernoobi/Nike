@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.header__nav {
+    background: #322E41;
+    padding: 14px 0;
+}
+
+.header__nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav-list {
+    display: flex;
+}
+
+.header__nav-list a {
+    padding: 26px 22px;
+    color: white;
+    transition: 300ms;
+}
+
+.header__nav-list a:hover {
+    color: #D47300;
+    background: white;
+}
+
+.header__content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    color: white;
+    background: url(../images/headerBG.webp) center / cover;
+    gap: 15px;
+}
+
+.header__content span {
+    font-weight: 700;
+    color: white;
+}
+
+.header__content p {
+    font-size: 18px;
+}
+
+.main__left {
+    max-width: 540px;
+}
+
+.card {
+    background: white;
+    border-radius: 6px;
+    padding: 15px;
+}
+
+.card h2 {
+    margin: 20px 0 10px;
+    font-weight: 700;
+    font-size: 22px;
+    color: #2C2A2A;
+}
+
+.card p {
+    color: #9B9B9B;
+}
+
+.main {
+    display: flex;
+    gap: 30px;
+    transform: translatey(-37px);
+}
+
+.main__right {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 540px;
+    gap: 29.5px 30px;
+}
+
+.main__right .card {
+    width: 47%;
+    text-align: center;
+}
+
+.main__right h2 {
+    margin: 0px 0 10px;
+}
+
+.main__right p {
+    line-height: 100%;
+}
+
+.footer {
+    background: #322E41;
+    padding: 40px 0;
+}
+
+.footer__form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 350px;
+}
+
+input, textarea, button {
+    font-weight: 400;
+    font-size: 16px;
+    color: #9b9b9b;
+    padding: 9px 10px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+button {
+    background: #544294;
+    color: white;
+    cursor: pointer;
+}
+
+body {
+    background: #EBEBEB;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
